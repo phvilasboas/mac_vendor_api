@@ -5,16 +5,6 @@ Mac vendor query using IEEE OUI as reference
 
 ## API Reference
 
-#### Get all items
-
-```http
-  GET /mac4.php
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
-
 #### Get item
 
 ```http
@@ -25,7 +15,25 @@ Mac vendor query using IEEE OUI as reference
 | :-------- | :------- | :-------------------------------- |
 | `mac`      | `string` | **Required**. MAC of item to fetch |
 
+## Run Locally
 
+Clone the project
+
+```bash
+  git clone https://github.com/phvilasboas/mac_vendor_api.git
+```
+
+Go to the project directory
+
+```bash
+  cd mac_vendor_api
+```
+
+Start the server
+
+```bash
+  docker-compose up -d
+```
 
 ## Usage/Examples
 
